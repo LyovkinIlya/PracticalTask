@@ -1,5 +1,5 @@
 def formatting(list_):
-    list_un = []   # Убирает вложенные списки
+    list_un = []                               # Убирает вложенные списки
     for k in list_:
         list_un.extend(k)
 
