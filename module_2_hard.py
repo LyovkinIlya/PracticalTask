@@ -13,8 +13,8 @@ def formatting(list_):
 n = int(input('Введите число из первой вставки >> '))
 if 3 <= n <= 20:
     list_result = []
-    for a in range(1, n):                            # Получаем список с вложенными парами чисел,
-        for b in range(a, n):                    # подходящие под условия
+    for a in range(1, n):                          # Получаем список с вложенными парами чисел,
+        for b in range(a, n):                      # подходящие под условия
             if a != b and n % (a + b) == 0:
                     list_result.append([a, b])
     for i in list_result:                          # Оставляем только уникальные пары чисел
